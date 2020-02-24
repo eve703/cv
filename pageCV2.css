@@ -1,0 +1,282 @@
+
+
+	p.rose{
+		color:#EF345C;
+	}
+	
+	
+	p.gras{
+		font-weight:bold;
+	}
+	
+	
+
+
+	/* Overlay */
+	.overlay-image .hover {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: .15s ease;
+	width:100px;
+	height:100px;
+	
+	}
+	
+	
+	/* Apparition overlay sur passage souris */
+	.overlay-image:hover .hover {
+	opacity: 1;
+	
+	
+	
+	}
+	/* image de profil */
+	.image {
+		
+	width:100px;
+	height:120px;	
+	margin-left:850px;
+	margin-top:30px;
+	position: absolute;	
+	}
+	
+	
+	/* cellule d'identité */
+	#coordonne{
+		font-family:helvetica;
+		color:#761D78;
+		font-size:18px;
+		line-height:10px;
+		border-style:solid;
+		border-color:#F8D4F9;
+		background:radial-gradient;
+		border-width:6px;
+		border-radius:10px;
+		margin-right:60px;
+		margin-left: 60px;
+	
+		padding-right:50px;
+		padding-left:60px;
+		box-shadow: 5px 5px 20px grey;
+		opacity:none;
+		background : radial-gradient(ellipse at center,#F8D4F9,Lightblue);
+		
+	}
+	
+	/* cellule recherche de stage*/
+	#recherche{
+		font-family:helvetica;
+		color:#761D78;
+		font-size:18px;
+		border-style:solid;
+		border-color:#F8D4F9;
+		background:radial-gradient;
+		border-width:6px;
+		border-radius:10px;
+		margin-right:300px;
+		margin-left: 300px;
+		margin-top:40px;
+		padding-right:50px;
+		padding-left:60px;
+		padding-top:60px;
+		padding-bottom:40px;
+		box-shadow: 5px 5px 20px grey;
+		opacity:none;
+		background : radial-gradient(ellipse at center,#F8D4F9,Lightblue);
+		
+		
+	}
+	
+	/* image de fond*/
+	#fond{
+		background-image:url(fond.jpg); 
+		font-size:40px;
+		color:black;
+		filter:Alpha(opacity=94);
+		-moz-opacity:0.94;
+		opacity: 0.94;
+		margin-left:60px;
+		margin-right:60px;
+		padding-top:5px;
+		padding-bottom:40px;
+	}
+	
+	
+	/* logo html css js */
+	.logo{
+		
+		width:300px;
+		height:130px;
+	}
+	
+	/* cellule competences*/
+	#competences{
+		
+		font-family:helvetica;
+		color:#761D78;
+		font-size:18px;
+		text-align:center;
+		border-style:solid;
+		border-color:#F8D4F9;
+		background:radial-gradient;
+		border-width:6px;
+		border-radius:10px;
+		margin-right:100px;
+		margin-left: 350px;
+		margin-top:30px;
+		padding-right:20px;
+		padding-left:20px;
+		padding-top:30px;
+		padding-bottom:30px;
+		box-shadow: 5px 5px 20px grey;
+		opacity:none;
+		background : radial-gradient(ellipse at center,#F8D4F9,Lightblue);
+		
+		
+	}
+	/* cellule experiences*/
+	#experiences{
+		
+		font-family:helvetica;
+		color:#761D78;
+		font-size:18px;
+		border-style:solid;
+		border-color:#F8D4F9;
+		background:radial-gradient;
+		border-width:6px;
+		border-radius:10px;
+		margin-right:200px;
+		margin-left: 200px;
+		margin-top:40px;
+		padding-right:50px;
+		padding-left:60px;
+		padding-top:60px;
+		padding-bottom:40px;
+		box-shadow: 5px 5px 20px grey;
+		opacity:none;
+		background : radial-gradient(ellipse at center,#F8D4F9,Lightblue);
+		
+		
+	}
+	
+	/*cellule formations*/
+	#formation{
+		
+		font-family:helvetica;
+		text-align:center;
+		color:#761D78;
+		font-size:18px;
+		border-style:solid;
+		border-color:#F8D4F9;
+		background:radial-gradient;
+		border-width:6px;
+		border-radius:10px;
+		margin-right:450px;
+		margin-left: 100px;
+		margin-top:40px;
+		padding-right:50px;
+		padding-left:60px;
+		padding-top:20px;
+		padding-bottom:20px;
+		box-shadow: 5px 5px 20px grey;
+		opacity:none;
+		background : radial-gradient(ellipse at center,#F8D4F9,Lightblue);
+		
+		
+	}
+	
+	/*cellule divers*/
+	#divers{
+		
+		font-family:helvetica;
+		text-align:center;
+		color:#761D78;
+		font-size:18px;
+		border-style:solid;
+		border-color:#F8D4F9;
+		background:radial-gradient;
+		border-width:6px;
+		border-radius:10px;
+		margin-right:100px;
+		margin-left: 500px;
+		margin-top:40px;
+		padding-right:50px;
+		padding-left:60px;
+		padding-top:20px;
+		padding-bottom:20px;
+		box-shadow: 5px 5px 20px grey;
+		opacity:none;
+		background : radial-gradient(ellipse at center,#F8D4F9,Lightblue);
+		
+		
+	}	
+	/* logo lonkedin*/
+	#linkedin{
+	margin-left:600px;
+	
+	margin-right:480px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	
+	}
+	
+	/* cellule qualités*/
+	#qualites{
+		
+		font-family:helvetica;
+		color:#761D78;
+		font-size:18px;
+		border-style:solid;
+		border-color:#F8D4F9;
+		background:radial-gradient;
+		border-width:6px;
+		border-radius:10px;
+		margin-right:100px;
+		margin-left: 100px;
+		margin-top:20px;
+		padding-right:50px;
+		padding-left:60px;
+		padding-top:20px;
+		padding-bottom:20px;
+		box-shadow: 5px 5px 20px grey;
+		opacity:none;
+		background : radial-gradient(ellipse at center,#F8D4F9,Lightblue);
+		
+		
+	}	
+	
+	
+	
+	/*logo java html css*/
+	#logologiciel
+{
+    margin: 100px;
+    margin-left:130px;
+	margin-top:100px;
+	
+}
+	
+	/*animation logo java*/
+	#logologiciel:hover
+	{
+    -webkit-animation: masuperanimation 4s; /*Chrome */
+    
+}
+	
+	@-webkit-keyframes masuperanimation { /* annimation logo html,css,js */
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(400px);
+    }
+
+    100% {
+        transform: translateX(100px) rotate(10deg);
+    }
+
+
+	
